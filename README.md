@@ -257,7 +257,7 @@ in a single application.
 
 GitHub:
 
-https://github.com/hafizecim/python-tennis-court-reservation
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?logo=github&logoColor=white)](https://github.com/hafizecim/python-tennis-court-reservation)
 
 ⭐ Star us on GitHub: your support motivates us a lot! 
 
