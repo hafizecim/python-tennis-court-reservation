@@ -6,11 +6,39 @@ The project allows users to create, list, search, and delete tennis court reserv
 
 ## 📸 Screenshot
 
-> A screenshot of the application will be added here.
 
-<!-- Add your screenshot below:
-![Application Screenshot](screenshot.png)
--->
+<img width="366" height="154" alt="image" src="https://github.com/user-attachments/assets/d9bcb187-6f51-48f7-91d3-84d10c278b9b" />
+
+
+### 1 - ➕ Add Reservation
+
+<img width="226" height="121" alt="image" src="https://github.com/user-attachments/assets/6f13106d-8443-49f2-8ef3-86e534d3c0eb" />
+
+
+### 2 - 📋 List Reservations
+
+<img width="208" height="125" alt="image" src="https://github.com/user-attachments/assets/c8ee375a-ca08-4d09-a89c-37d7e4b15ee7" />
+
+
+### 3 - 🔍 Search Reservation
+
+<img width="235" height="64" alt="image" src="https://github.com/user-attachments/assets/298d83ca-5acb-4932-ae6d-da53647143d0" />
+
+
+### 4 - 🗑️  Delete Reservation
+
+<img width="276" height="74" alt="image" src="https://github.com/user-attachments/assets/b90cba90-ae5c-4db6-8fd3-d744f54638f3" />
+
+
+### 5 - 📊 Reservation Report
+
+<img width="232" height="159" alt="image" src="https://github.com/user-attachments/assets/aa4ffd69-1393-415d-ae85-064644e11793" />
+
+
+### 0 - 🚪 Exit
+
+<img width="157" height="34" alt="image" src="https://github.com/user-attachments/assets/3d2e91fb-8cd3-4aa0-9973-6f348f0da0c6" />
+
 
 ## ✨ Features
 
