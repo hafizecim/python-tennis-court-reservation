@@ -23,6 +23,10 @@ while True:
         date = input("Date (YYYY-MM-DD): ")
         time = input("Time (HH:MM): ")
 
+        if name == "" or date == "" or time == "":
+            print("Name, date and time cannot be empty.")
+            continue
+
         try:
             player_count = int(input("Player count (1-4): "))
 
