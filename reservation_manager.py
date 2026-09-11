@@ -41,6 +41,36 @@ class ReservationManager:
 
         if not found:
             print("Reservation not found.")
+            
+            
+    def show_report(self):
+        total_reservations = len(self.reservations)
+        total_players = 0
+        player_summary = {}
+
+        for reservation in self.reservations:
+            total_players += reservation.player_count
+
+            if reservation.player_count in player_summary:
+                player_summary[reservation.player_count] += 1
+            else:
+                player_summary[reservation.player_count] = 1
+
+        print()
+        print("===== Reservation Report =====")
+        print("Total reservations:", total_reservations)
+        print("Total players:", total_players)
+
+        print()
+        print("Players per reservation:")
+
+        for player_count in player_summary:
+            print(
+                player_count,
+                "players:",
+                player_summary[player_count],
+                "reservations"
+            )
 
     def save_to_file(self):
         data = []

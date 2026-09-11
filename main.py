@@ -13,6 +13,7 @@ while True:
     print("2 - List Reservations")
     print("3 - Search Reservation")
     print("4 - Delete Reservation")
+    print("5 - Reservation Report")
     print("0 - Exit")
 
     choice = input("Choose an option: ")
@@ -58,6 +59,9 @@ while True:
         name = input("Enter the name to delete: ")
         manager.delete_reservation(name)
         manager.save_to_file()
+    
+    elif choice == "5":
+        manager.show_report()
 
     elif choice == "0":
         print("Goodbye!")
