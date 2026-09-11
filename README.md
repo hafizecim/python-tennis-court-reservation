@@ -1,3 +1,11 @@
+[![Language](https://img.shields.io/badge/language-Python-3776AB)](https://www.python.org/)
+[![Python Version](https://img.shields.io/badge/Python-3.x-3776AB)](https://www.python.org/)
+[![JSON](https://img.shields.io/badge/Data-JSON-000000)](https://www.json.org/)
+[![Colorama](https://img.shields.io/badge/Colorama-0.4.6-3776AB)](https://pypi.org/project/colorama/)
+[![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-181717?logo=github)](https://github.com/hafizecim/python-tennis-court-reservation)
+[![GitHub last commit](https://img.shields.io/github/last-commit/hafizecim/python-tennis-court-reservation)](https://github.com/hafizecim/python-tennis-court-reservation)
+
+
 # 🎾 Python Tennis Court Reservation System
 
 A console-based tennis court reservation system developed with Python.
@@ -250,6 +258,13 @@ in a single application.
 GitHub:
 
 https://github.com/hafizecim/python-tennis-court-reservation
+
+⭐ Star us on GitHub: your support motivates us a lot! 
+
+[![Share](https://img.shields.io/badge/share-000000?logo=x&logoColor=white)](https://x.com/intent/tweet?text=Check%20out%20this%20project%20on%20GitHub:%20https://github.com/Abblix/Oidc.Server%20%23OpenIDConnect%20%23Security%20%23Authentication)
+[![Share](https://img.shields.io/badge/share-1877F2?logo=facebook&logoColor=white)](https://www.facebook.com/sharer/sharer.php?u=https://github.com/Abblix/Oidc.Server)
+[![Share](https://img.shields.io/badge/share-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/sharing/share-offsite/?url=https://github.com/Abblix/Oidc.Server)
+[![Share](https://img.shields.io/badge/share-FF4500?logo=reddit&logoColor=white)](https://www.reddit.com/submit?title=Check%20out%20this%20project%20on%20GitHub:%20https://github.com/Abblix/Oidc.Server)
 
 ## 👩‍💻 Author
 
