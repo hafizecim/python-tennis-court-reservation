@@ -4,3 +4,12 @@ class ReservationManager:
 
     def add_reservation(self, reservation):
         self.reservations.append(reservation)
+
+    def list_reservations(self):
+        for reservation in self.reservations:
+            print(
+                reservation.name,
+                reservation.date,
+                reservation.time,
+                reservation.player_count
+            )

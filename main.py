@@ -4,11 +4,10 @@ from reservation_manager import ReservationManager
 
 manager = ReservationManager()
 
-reservation = Reservation("Ahmet", "2026-09-12", "18:00", 2)
+reservation1 = Reservation("Ahmet", "2026-09-12", "18:00", 2)
+reservation2 = Reservation("Ayşe", "2026-09-13", "19:00", 4)
 
-manager.add_reservation(reservation)
+manager.add_reservation(reservation1)
+manager.add_reservation(reservation2)
 
-print(manager.reservations[0].name)
-print(manager.reservations[0].date)
-print(manager.reservations[0].time)
-print(manager.reservations[0].player_count)
+manager.list_reservations()
