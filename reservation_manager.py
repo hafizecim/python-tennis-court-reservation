@@ -1,3 +1,6 @@
+import json
+from reservation import Reservation
+
 class ReservationManager:
     def __init__(self):
         self.reservations = []
@@ -38,3 +41,40 @@ class ReservationManager:
 
         if not found:
             print("Reservation not found.")
+
+    def save_to_file(self):
+        data = []
+
+        for reservation in self.reservations:
+            data.append({
+                "name": reservation.name,
+                "date": reservation.date,
+                "time": reservation.time,
+                "player_count": reservation.player_count
+            })
+
+        with open("reservations.json", "w") as file:
+            json.dump(data, file, indent=4)
+
+        print("Reservations saved.")
+
+
+    def load_from_file(self):
+        try:
+            with open("reservations.json", "r") as file:
+                data = json.load(file)
+
+            for item in data:
+                reservation = Reservation(
+                    item["name"],
+                    item["date"],
+                    item["time"],
+                    item["player_count"]
+                )
+
+                self.reservations.append(reservation)
+
+            print("Reservations loaded.")
+
+        except FileNotFoundError:
+            print("Reservation file not found.")
