@@ -13,3 +13,12 @@ class ReservationManager:
                 reservation.time,
                 reservation.player_count
             )
+
+    def delete_reservation(self, name):
+        for reservation in self.reservations:
+            if reservation.name == name:
+                self.reservations.remove(reservation)
+                print("Reservation deleted.")
+                return
+
+        print("Reservation not found.")
