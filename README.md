@@ -1,44 +1,57 @@
-# Python Tennis Court Reservation System
+# 🎾 Python Tennis Court Reservation System
 
 A console-based tennis court reservation system developed with Python.
 
-## Project Purpose
+The project allows users to create, list, search, and delete tennis court reservations through a simple console menu. Reservation data is stored persistently in a JSON file.
 
-This project was developed as a Python final project.
+## 📸 Screenshot
 
-The application allows users to:
+> A screenshot of the application will be added here.
 
-- Add tennis court reservations
-- List reservations
-- Search reservations by name or date
-- Delete reservations
-- View reservation reports
-- Save reservations to a JSON file
-- Load reservations from a JSON file
+<!-- Add your screenshot below:
+![Application Screenshot](screenshot.png)
+-->
 
-## Technologies
+## ✨ Features
 
-- Python
-- JSON
-- Object-Oriented Programming (OOP)
-- File Operations
-- Exception Handling
+* ➕ Add a new reservation
+* 📋 List all reservations
+* 🔍 Search reservations by name or date
+* 🗑️ Delete a reservation
+* 📊 Display reservation reports
+* 💾 Save reservation data to a JSON file
+* 📂 Load reservation data when the application starts
+* ⚠️ Validate user input
+* 🛡️ Handle common input and file errors
+* 🎨 Colored console output
 
-## Python Topics Used
+## 🛠️ Technologies
 
-- Variables
-- Input and Output
-- If / Elif / Else
-- While Loop
-- For Loop
-- Lists
-- Dictionaries
-- Functions
-- Classes and Objects
-- JSON File Operations
-- Try / Except
+* **Python 3**
+* **JSON**
+* **Colorama**
 
-## Project Structure
+## 📚 Python Topics
+
+This project demonstrates the following Python concepts:
+
+* Variables
+* Input and output
+* Conditional statements (`if / elif / else`)
+* `while` loops
+* `for` loops
+* Lists
+* Dictionaries
+* Functions
+* Classes and objects
+* Object-Oriented Programming (OOP)
+* File operations
+* JSON data storage
+* Exception handling (`try / except`)
+* Input validation
+* Modular programming
+
+## 📁 Project Structure
 
 ```text
 python-tennis-court-reservation/
@@ -46,6 +59,170 @@ python-tennis-court-reservation/
 ├── main.py
 ├── reservation.py
 ├── reservation_manager.py
-├── reservations.json
 ├── .gitignore
-└── README.md
+├── README.md
+└── reservations.json
+```
+
+### File Descriptions
+
+| File                     | Description                                                          |
+| ------------------------ | -------------------------------------------------------------------- |
+| `main.py`                | Contains the console menu and controls the application flow          |
+| `reservation.py`         | Defines the `Reservation` class                                      |
+| `reservation_manager.py` | Manages reservations, search, deletion, reports, and JSON operations |
+| `reservations.json`      | Stores reservation data locally at runtime                           |
+| `.gitignore`             | Prevents reservation data from being uploaded to GitHub              |
+| `README.md`              | Project documentation                                                |
+
+## 🚀 Installation
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/hafizecim/python-tennis-court-reservation.git
+```
+
+### 2. Open the project folder
+
+```bash
+cd python-tennis-court-reservation
+```
+
+### 3. Install the required package
+
+```bash
+pip install colorama
+```
+
+### 4. Run the application
+
+```bash
+python main.py
+```
+
+## 🎾 Application Menu
+
+```text
+===== Tennis Court Reservation System =====
+
+1 - Add Reservation
+2 - List Reservations
+3 - Search Reservation
+4 - Delete Reservation
+5 - Reservation Report
+0 - Exit
+```
+
+## 💾 Data Storage
+
+Reservation data is stored in a local JSON file:
+
+```text
+reservations.json
+```
+
+The application automatically:
+
+* Loads existing reservations when it starts.
+* Saves reservation changes to the JSON file.
+* Creates the JSON file when reservation data is saved.
+
+The `reservations.json` file is excluded from GitHub using `.gitignore`.
+
+## 🔍 Search
+
+Reservations can be searched using:
+
+* Player name
+* Reservation date
+
+For example:
+
+```text
+Enter name or date: Ahmet
+```
+
+or:
+
+```text
+Enter name or date: 2026-09-12
+```
+
+## 📊 Reservation Report
+
+The report section provides a summary of the reservation data.
+
+It displays:
+
+* Total number of reservations
+* Total number of players
+* Number of reservations according to player count
+
+Example:
+
+```text
+===== Reservation Report =====
+
+Total reservations: 2
+Total players: 6
+
+Players per reservation:
+2 players: 1 reservations
+4 players: 1 reservations
+```
+
+## 🛡️ Error Handling
+
+The application handles common errors using `try / except`.
+
+Examples include:
+
+* Invalid numeric input
+* Missing reservation file
+* Empty reservation information
+* Invalid player count
+
+Example:
+
+```text
+Please enter a number.
+```
+
+## 🎨 Console Interface
+
+The application uses **Colorama** to improve console readability with colored output.
+
+Different colors are used for:
+
+* Menu and section headings
+* Successful operations
+* Errors and warnings
+* User input prompts
+* Informational messages
+
+## 🎯 Project Purpose
+
+This project was developed as a Python course final project to demonstrate fundamental Python programming concepts in a practical application.
+
+The main goal is to combine:
+
+* Functions
+* Lists and dictionaries
+* Classes and objects
+* File operations
+* JSON data storage
+* Exception handling
+* Console-based user interaction
+
+in a single application.
+
+## 🔗 Repository
+
+GitHub:
+
+https://github.com/hafizecim/python-tennis-court-reservation
+
+## 👩‍💻 Author
+
+Developed as a Python course final project.
