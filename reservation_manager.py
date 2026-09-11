@@ -22,3 +22,19 @@ class ReservationManager:
                 return
 
         print("Reservation not found.")
+
+    def search_reservations(self, keyword):
+        found = False
+
+        for reservation in self.reservations:
+            if reservation.name == keyword or reservation.date == keyword:
+                print(
+                    reservation.name,
+                    reservation.date,
+                    reservation.time,
+                    reservation.player_count
+                )
+                found = True
+
+        if not found:
+            print("Reservation not found.")

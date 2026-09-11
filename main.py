@@ -6,14 +6,14 @@ manager = ReservationManager()
 
 reservation1 = Reservation("Ahmet", "2026-09-12", "18:00", 2)
 reservation2 = Reservation("Ayşe", "2026-09-13", "19:00", 4)
+reservation3 = Reservation("Ahmet", "2026-09-15", "20:00", 2)
 
 manager.add_reservation(reservation1)
 manager.add_reservation(reservation2)
+manager.add_reservation(reservation3)
 
-print("Before delete:")
-manager.list_reservations()
+print("Search by name:")
+manager.search_reservations("Ahmet")
 
-manager.delete_reservation("Ahmet")
-
-print("After delete:")
-manager.list_reservations()
+print("Search by date:")
+manager.search_reservations("2026-09-13")
